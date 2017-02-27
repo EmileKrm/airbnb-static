@@ -40,11 +40,11 @@
 
 /* Navbar standard link */
 .navbar-wagon-link {
-  color: #616668;
+  color: $orange;
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: $blue;
   text-decoration: none;
 }
 
@@ -54,15 +54,15 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: $gray-dark;
   color: white;
   font-size: 14px;
-  border: 2px solid #D23333;
+  border: 2px solid $gray-light;
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: #D23333;
-  border-color: #ac2626;
+  background: $green;
+  border-color: $red;
 }
 
 /* Navbar search form */
@@ -75,7 +75,7 @@
 }
 .navbar-wagon-search-btn {
   line-height: 40px;
-  color: #E6E6E6;
+  color: $blue;
   border: none;
   background: transparent;
   position: absolute;
@@ -88,15 +88,15 @@
   transition: all 0.15s ease;
   line-height: 40px;
   font-weight: lighter;
-  color: #666666;
-  border: 1px solid #E6E6E6;
+  color: $yellow;
+  border: 1px solid $red;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 14px;
   outline: none;
 }
 .navbar-wagon-search-input:focus  {
-  border: 1px solid #CCCCCC;
+  border: 1px solid $blue;
 }
 
 /* Navbar dropdown menu */
