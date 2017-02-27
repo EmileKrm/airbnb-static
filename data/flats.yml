@@ -1,0 +1,32 @@
+emile:
+  owner_name: Emile Karam
+  picture: http://placedog.com/g/150/150
+  owner_picture: emile.jpg
+  name: Emile's home
+  summary: Nice flat in Achrafief
+  city: Beirut, Lebanon
+  wifi: True
+lily:
+  owner_name: Lily
+  picture: http://placekitten.com/150/150
+  owner_picture: lily.jpg
+  name: Lily's home
+  summary: Nice flat in Victoria
+  city: London, UK
+  wifi: False
+seb:
+  owner_name: Sebastien Saunier
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
