@@ -1,0 +1,16 @@
+/* Footer design */
+#footer {
+  background: #262626;
+  padding: 30px;
+  color: gray;
+  a {
+    font-size: 27px;
+    color: gray;
+    transition: 0.3s;
+    padding: 20px 20px 20px 0;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

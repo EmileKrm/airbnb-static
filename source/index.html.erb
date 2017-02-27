@@ -2,13 +2,6 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
-</div>
-
 <html>
   <head>
     <meta charset="utf-8">
@@ -27,6 +20,7 @@ title: Le Wagon Middleman boilerplate
   </head>
 
   <body>
+
     <div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
       <div class="banner-content">
         <h1>WELCOME HOME</h1>
@@ -51,22 +45,23 @@ title: Le Wagon Middleman boilerplate
           <p>The earth is your new home.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/dollar.png" alt="">
+          <%= image_tag "dollar.png" %>
           <h2>Pay online</h2>
           <p>No cash issues anymore.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/beer.png" alt="">
+          <%= image_tag "beer.png" %>
           <h2>Meet people</h2>
           <p>Discover new culture and lifestyle.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <img src="images/heart.png" alt="">
+          <%= image_tag "heart.png" %>
           <h2>Share and love</h2>
           <p>Join a community you will love.</p>
         </div>
       </div>
     </div>
+
     <div class="wrapper-grey padded">
       <div class="container">
         <h2 class="text-center">Your next trip</h2>
@@ -78,8 +73,8 @@ title: Le Wagon Middleman boilerplate
                 <h2>Seb's home</h2>
                 <p>Charming room with patio</p>
               </div>
-              <img class="card-user avatar avatar-large" src="images/seb.jpg">
-              <a class="card-link" href="#" ></a>
+              <%= image_tag "seb.jpg", class: "card-user avatar" %>
+              <%=link_to "", "#", class: "card-link"%>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4">
@@ -89,8 +84,8 @@ title: Le Wagon Middleman boilerplate
                 <h2>Anne's home</h2>
                 <p>Lovely house</p>
               </div>
-              <img class="card-user avatar avatar-large" src="images/anne.jpg">
-              <a class="card-link" href="#" ></a>
+              <%= image_tag "seb.jpg", class: "card-user avatar" %>
+              <%=link_to "", "#", class: "card-link"%>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4">
@@ -100,8 +95,8 @@ title: Le Wagon Middleman boilerplate
                 <h2>Romain's home</h2>
                 <p>Nice flat in Piccadilly</p>
               </div>
-              <img class="card-user avatar avatar-large" src="images/romain.jpeg">
-              <a class="card-link" href="#" ></a>
+              <%= image_tag "seb.jpg", class: "card-user avatar" %>
+              <%=link_to "", "#", class: "card-link"%>
             </div>
           </div>
         </div>
